@@ -31,15 +31,15 @@ export default function Carousel() {
       className="min-h-[24rem] flex w-full lg:min-h-[28rem]"
     >
       <SwiperSlide className="relative min-h-[24rem] lg:min-h-[28rem]">
-        <div className="min-h-[24rem] bg-no-repeat bg-cover bg-[url('./src/assets/carousel/VivoFibra.jpg')] bg-center lg:min-h-[28rem]"></div>
+        <div className="min-h-[24rem] bg-no-repeat bg-cover bg-[url('./public/carousel/VivoFibra.jpg')] bg-center lg:min-h-[28rem]"></div>
       </SwiperSlide>
 
       <SwiperSlide className="relative min-h-[24rem] lg:min-h-[28rem]">
-        <div className="min-h-[24rem] bg-no-repeat bg-cover bg-[url('./src/assets/carousel/VivoControle.jpg')] bg-center lg:min-h-[28rem]"></div>
+        <div className="min-h-[24rem] bg-no-repeat bg-cover bg-[url('./public/carousel/VivoControle.jpg')] bg-center lg:min-h-[28rem]"></div>
       </SwiperSlide>
 
       <SwiperSlide className="relative min-h-[24rem] lg:min-h-[28rem]">
-        <div  className="min-h-[24rem] bg-no-repeat bg-cover bg-[url('./src/assets/carousel/Iphone16.jpg')] bg-center lg:min-h-[28rem]"></div>
+        <div  className="min-h-[24rem] bg-no-repeat bg-cover bg-[url('./public/carousel/Iphone16.jpg')] bg-center lg:min-h-[28rem]"></div>
       </SwiperSlide>
     </Swiper>
   )

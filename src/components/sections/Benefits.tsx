@@ -31,7 +31,7 @@ export default function Benefits ({id}: {id: string}){
           ))}
         </div>
         <div className="w-full hidden sm:flex items-center justify-center">
-          <div className="lg:h-full h-56 flex items-start p-5 w-full rounded-xl bg-gray-300 bg-no-repeat bg-cover bg-[url('./src/assets/homem-celular.png')] bg-center" >
+          <div className="lg:h-full h-56 flex items-start p-5 w-full rounded-xl bg-gray-300 bg-no-repeat bg-cover bg-[url('./public/homem-celular.png')] bg-center" >
            <img className="h-4" src={logoRoxa} alt="" />
           </div> 
         </div>
