@@ -21,12 +21,12 @@ export default function NavBar() {
         <img className='w-12' src={VivoEmpresasLogo} alt="Logo da Vivo para empresas autorizadas" />
     </a>
     <div className='hidden md:flex flex-row gap-4' >
-        <div className='flex flex-row gap-4' >
+        <nav className='flex flex-row gap-4' >
           <a className='hover:cursor-pointer hover:text-fuchsia-900 transition-all' href="#servicesMovel">Móvel</a>
           <a className='hover:cursor-pointer hover:text-fuchsia-900 transition-all' href="#beneficios">Benefícios</a>
           <a className='hover:cursor-pointer hover:text-fuchsia-900 transition-all' href="#servicesFibra">Internet</a>
           <a className='hover:cursor-pointer hover:text-fuchsia-900 transition-all' href="#footer">Contatos</a>
-        </div>
+        </nav>
         {/* <div>
           <p>Ofertas para</p>
         </div> */}
