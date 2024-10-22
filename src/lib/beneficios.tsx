@@ -2,8 +2,8 @@ import { Headset, Rocket, Split, Sprout, UserCog } from "lucide-react"
 
 const Beneficios = [
 {
-  titulo:'100% fibra',
-  descricao:'A melhor conexão banda larga',
+  titulo:'100% Fibra',
+  descricao:'A melhor conexão banda larga!',
   icon:<Rocket/>,
 },
 {
