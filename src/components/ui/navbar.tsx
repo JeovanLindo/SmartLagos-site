@@ -12,6 +12,22 @@ import {
 } from "@/components/ui/sheet"
 import { AlignJustifyIcon } from "lucide-react"
  
+
+const scrollToSection = (sectionId: string) => {
+  const section = document.getElementById(sectionId);
+    const offset = 50; // ajuste esse valor conforme necessário
+
+    if (section) {
+      const sectionPosition = section.getBoundingClientRect().top + window.scrollY; // Posição do elemento
+      const offsetPosition = sectionPosition - offset; // Subtrai o offset
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    }
+};
+
 export default function NavBar() {
   return (
   <header className="sticky top-0 z-50 overflow-hidden flex justify-between font-inter items-center h-16 w-full bg-gray-100 sm:px-32 px-4" >
@@ -22,14 +38,11 @@ export default function NavBar() {
     </a>
     <div className='hidden md:flex flex-row gap-4' >
         <nav className='flex flex-row gap-4' >
-          <a className='hover:cursor-pointer hover:text-fuchsia-900 transition-all' href="#servicesMovel">Móvel</a>
-          <a className='hover:cursor-pointer hover:text-fuchsia-900 transition-all' href="#beneficios">Benefícios</a>
-          <a className='hover:cursor-pointer hover:text-fuchsia-900 transition-all' href="#servicesFibra">Internet</a>
-          <a className='hover:cursor-pointer hover:text-fuchsia-900 transition-all' href="#footer">Contatos</a>
+          <button onClick={()=> scrollToSection('servicesMovel')} className='hover:cursor-pointer hover:text-fuchsia-900 transition-all'>Móvel</button>
+          <button onClick={()=> scrollToSection('beneficios')} className='hover:cursor-pointer hover:text-fuchsia-900 transition-all'>Benefícios</button>
+          <button onClick={()=> scrollToSection('servicesFibra')} className='hover:cursor-pointer hover:text-fuchsia-900 transition-all'>Internet</button>
+          <button onClick={()=> scrollToSection('footer')} className='hover:cursor-pointer hover:text-fuchsia-900 transition-all'>Contatos</button>
         </nav>
-        {/* <div>
-          <p>Ofertas para</p>
-        </div> */}
     </div>
     
     <Sheet modal={false}>

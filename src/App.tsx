@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className='scroll-smooth'>
+      <div>
         <Header/>
         <Main id='main'/>
         <ServicesMovel id='servicesMovel'/>
