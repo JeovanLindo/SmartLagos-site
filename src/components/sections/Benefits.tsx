@@ -18,10 +18,10 @@ export default function Benefits ({id}: {id: string}){
           Beneficios de ser um cliente vivo
         </h1>
       </div>
-      <div className="flex flex-col lg:flex-row gap-10 justify-between w-full h-fit">
-        <div className="flex w-full justify-center sm:justify-start flex-row flex-wrap md:gap-6 gap-3 h-fit">
+      <div className="flex flex-col lg:flex-row gap-3 justify-between w-full h-fit">
+        <div className="flex w-full justify-center sm:justify-start flex-row flex-wrap gap-3 h-fit">
           {list.map((bl)=>(
-            <div key={bl.title} className="rounded-lg justify-between hover:scale-105 transition-all flex flex-col border p-2 border-fuchsia-600 h-32 w-32">
+            <div key={bl.title} className="rounded-lg justify-between hover:scale-105 transition-all flex flex-col border p-2 border-fuchsia-600 h-36 w-36">
               <div>
                 <div className="text-fuchsia-700" >{bl.icon}</div>
                 <h1 className="text-fuchsia-700">{bl.title}</h1>

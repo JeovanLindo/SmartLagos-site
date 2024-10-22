@@ -57,25 +57,25 @@ export default function NavBar() {
         </div>
         <SheetHeader className='flex flex-col gap-7'>
           <div>
-            <SheetTitle className='text-xl hover:cursor-pointer hover:translate-x-1 hover:text-fuchsia-900 transition-all'><a href="#servicesMovel">Móvel</a></SheetTitle>
+            <SheetTitle className='text-xl hover:cursor-pointer hover:translate-x-1 hover:text-fuchsia-900 transition-all'><button onClick={()=> scrollToSection('servicesMovel')}>Móvel</button></SheetTitle>
             <SheetDescription>
               Veja nossas ofertas de internet móvel!
             </SheetDescription>
           </div>
           <div>
-            <SheetTitle className='text-xl hover:cursor-pointer hover:translate-x-1 hover:text-fuchsia-900 transition-all'><a href="#beneficios">Benefícios</a></SheetTitle>
+            <SheetTitle className='text-xl hover:cursor-pointer hover:translate-x-1 hover:text-fuchsia-900 transition-all'><button onClick={()=> scrollToSection('beneficios')}>Benefícios</button></SheetTitle>
             <SheetDescription>
               Veja porque deve contratar nossos serviços!
             </SheetDescription>
           </div>
           <div>
-            <SheetTitle className='text-xl hover:cursor-pointer hover:translate-x-1 hover:text-fuchsia-900 transition-all'><a href="#servicesFibra">Internet</a></SheetTitle>
+            <SheetTitle className='text-xl hover:cursor-pointer hover:translate-x-1 hover:text-fuchsia-900 transition-all'><button onClick={()=> scrollToSection('servicesFibra')}>Internet</button></SheetTitle>
             <SheetDescription>
               Veja nossas ofertas de internet fibra!
             </SheetDescription>
           </div>
           <div>
-            <SheetTitle className='text-xl hover:cursor-pointer hover:translate-x-1 hover:text-fuchsia-900 transition-all'><a href="#footer">Contatos</a></SheetTitle>
+            <SheetTitle className='text-xl hover:cursor-pointer hover:translate-x-1 hover:text-fuchsia-900 transition-all'><button onClick={()=> scrollToSection('footer')}>Contatos</button></SheetTitle>
             <SheetDescription>
               Precisa de ajuda ou quer nos encontrar!
             </SheetDescription>

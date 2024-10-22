@@ -1,4 +1,4 @@
-import { Rocket } from "lucide-react"
+import { Headset, Rocket, Split, Sprout, UserCog } from "lucide-react"
 
 const Beneficios = [
 {
@@ -7,24 +7,24 @@ const Beneficios = [
   icon:<Rocket/>,
 },
 {
-  titulo:'100% fibra',
-  descricao:'A melhor conexão banda larga',
-  icon:<Rocket/>,
+  titulo:'Suporte Local',
+  descricao:'Equipes locais para necessidades da sua região.',
+  icon:<UserCog/>,
 },
 {
-  titulo:'100% fibra',
-  descricao:'A melhor conexão banda larga',
-  icon:<Rocket/>,
+  titulo:'Flexibilidade',
+  descricao:'Opções que se adaptam ao seu crescimento.',
+  icon:<Split/>,
 },
 {
-  titulo:'100% fibra',
-  descricao:'A melhor conexão banda larga',
-  icon:<Rocket/>,
+  titulo:'Atendimento Rápido',
+  descricao:'Compromisso com respostas rápidas.',
+  icon:<Headset/>,
 },
 {
-  titulo:'100% fibra',
-  descricao:'A melhor conexão banda larga',
-  icon:<Rocket/>,
+  titulo:'Apoio Ecológico',
+  descricao:'Iniciativas para reduzir o impacto ambiental.',
+  icon:<Sprout/>,
 },
 ]
 

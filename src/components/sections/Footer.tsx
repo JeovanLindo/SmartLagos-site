@@ -38,16 +38,16 @@ export default function Footer ({ id }: { id: string }){
             <div className='flex flex-col items-center gap-1 justify-center'>
               <p className='opacity-90'>Cabo Frio-RJ</p>
               <ul className='flex flex-col'>
-                <li><a className='hover:opacity-100 opacity-60 transition-all' href=''>(22) 99968-2404</a></li>
-                <li><a className='hover:opacity-100 opacity-60 transition-all' href=''>(22) 3031-5505</a></li>
+                <li><a target='_blank' className='hover:opacity-100 opacity-60 transition-all' href='https://wa.me/5522999682404?text=Ol%C3%A1,%20estou%20interessado%20em%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20SmartLagos.%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20dispon%C3%ADveis%20e%20como%20posso%20me%20tornar%20um%20cliente.%20Agrade%C3%A7o%20desde%20j%C3%A1%20pela%20aten%C3%A7%C3%A3o!'>(22) 99968-2404</a></li>
+                <li><a target='_blank' className='hover:opacity-100 opacity-60 transition-all' href='https://wa.me/552230315505?text=Ol%C3%A1,%20estou%20interessado%20em%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20SmartLagos.%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20dispon%C3%ADveis%20e%20como%20posso%20me%20tornar%20um%20cliente.%20Agrade%C3%A7o%20desde%20j%C3%A1%20pela%20aten%C3%A7%C3%A3o!'>(22) 3031-5505</a></li>
               </ul>
             </div>
             <div className='flex flex-col items-center gap-1 justify-center'>
               <p className='opacity-90'>Vila da Penha-RJ</p>
               <ul className='flex flex-col'>
-                <li><a className='hover:opacity-100 opacity-60 transition-all' href=''>(21) 3525-1110</a></li>
-                <li><a className='hover:opacity-100 opacity-60 transition-all' href=''>(21) 99633-0831</a></li>
-                <li><a className='hover:opacity-100 opacity-60 transition-all' href=''>(21) 99633-0831</a></li>
+                <li><a target='_blank' className='hover:opacity-100 opacity-60 transition-all' href='https://wa.me/552135251110?text=Ol%C3%A1,%20estou%20interessado%20em%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20SmartLagos.%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20dispon%C3%ADveis%20e%20como%20posso%20me%20tornar%20um%20cliente.%20Agrade%C3%A7o%20desde%20j%C3%A1%20pela%20aten%C3%A7%C3%A3o!'>(21) 3525-1110</a></li>
+                <li><a target='_blank' className='hover:opacity-100 opacity-60 transition-all' href='https://wa.me/5521996330831?text=Ol%C3%A1,%20estou%20interessado%20em%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20SmartLagos.%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20dispon%C3%ADveis%20e%20como%20posso%20me%20tornar%20um%20cliente.%20Agrade%C3%A7o%20desde%20j%C3%A1%20pela%20aten%C3%A7%C3%A3o!'>(21) 99633-0831</a></li>
+                <li><a target='_blank' className='hover:opacity-100 opacity-60 transition-all' href='https://wa.me/5521996330831?text=Ol%C3%A1,%20estou%20interessado%20em%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20SmartLagos.%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20dispon%C3%ADveis%20e%20como%20posso%20me%20tornar%20um%20cliente.%20Agrade%C3%A7o%20desde%20j%C3%A1%20pela%20aten%C3%A7%C3%A3o!'>(21) 99633-0831</a></li>
               </ul>
             </div>
           </div>
