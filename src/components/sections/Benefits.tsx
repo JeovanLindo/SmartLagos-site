@@ -26,7 +26,7 @@ export default function Benefits ({id}: {id: string}){
                 <div className="text-fuchsia-700" >{bl.icon}</div>
                 <h1 className="text-fuchsia-700">{bl.title}</h1>
               </div>
-              <p className="text-xs text-gray-500">{bl.desc}</p>
+              <p className="text-xs text-gray-600">{bl.desc}</p>
             </div>
           ))}
         </div>
