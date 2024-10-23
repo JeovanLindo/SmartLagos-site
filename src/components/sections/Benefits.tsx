@@ -19,7 +19,7 @@ export default function Benefits ({id}: {id: string}){
         </h1>
       </div>
       <div className="flex flex-col lg:flex-row gap-3 justify-between w-full h-fit">
-        <div className="flex w-full justify-center sm:justify-start flex-row flex-wrap gap-3 h-fit">
+        <div className="flex w-full justify-center lg:justify-start flex-row flex-wrap gap-3 h-fit">
           {list.map((bl)=>(
             <div key={bl.title} className="rounded-lg justify-between hover:scale-105 transition-all flex flex-col border p-2 border-fuchsia-600 h-36 w-36">
               <div>

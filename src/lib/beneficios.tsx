@@ -1,4 +1,4 @@
-import { Headset, Rocket, Split, Sprout, UserCog } from "lucide-react"
+import { HandCoins, Headset, Rocket, Split, Sprout, UserCog } from "lucide-react"
 
 const Beneficios = [
 {
@@ -25,6 +25,11 @@ const Beneficios = [
   titulo:'Apoio Ecológico',
   descricao:'Iniciativas para reduzir o impacto ambiental.',
   icon:<Sprout/>,
+},
+{
+  titulo:'Vivo Valoriza',
+  descricao:'Programa de benefícios para clientes Vivo Empresas.',
+  icon:<HandCoins/>,
 },
 ]
 
