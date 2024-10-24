@@ -59,8 +59,8 @@ export default function Footer ({ id }: { id: string }){
         </div>
       </div>
     </footer>    
-    <div className='w-full bg-purple-950 border-t-[1px] border-gray-400 text-white h-fit py-1 flex md:flex-row flex-col md:gap-4 gap-1 justify-center items-center'>
-        <p className='opacity-60'>Made by <a className='hover:opacity-100 opacity-80 transition-all' target='_blank' href="">WR Digital</a></p>
+    <div className='w-full bg-purple-950 border-t-[1px] border-gray-400 text-white h-fit py-1 flex md:flex-row flex-col md:gap-3 gap-1 justify-center items-center'>
+        <p className='opacity-60'>Made by WR Digital</p>
         <p className='opacity-60'>Developed by <a className='hover:opacity-100 opacity-80 transition-all' target='_blank' href="https://www.behance.net/jeovanjnior/projects">Jeovan Lindo</a></p>
     </div>
     </>
