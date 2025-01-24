@@ -7,7 +7,7 @@ export default function Main({ id }: { id: string }){
       <section id={id} className="h-fit relative">
         <div className="flex absolute z-40 bottom-14 left-14">
           <button className="bg-white px-4 rounded-sm py-2 border text-fuchsia-700 hover:bg-gray-300 transition-all">
-            <a target="_blank" href='https://wa.me/5522999682404?text=Ol%C3%A1,%20estou%20interessado%20em%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20SmartLagos.%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20dispon%C3%ADveis%20e%20como%20posso%20me%20tornar%20um%20cliente.%20Agrade%C3%A7o%20desde%20j%C3%A1%20pela%20aten%C3%A7%C3%A3o!'>Seja um cliente nosso!</a>
+            <a target="_blank" href='https://api.whatsapp.com/send/?phone=5522999682404&text=Ol%C3%A1%2C+estou+interessado+em+conhecer+mais+sobre+os+servi%C3%A7os+da+SmartLagos.+Gostaria+de+saber+mais+sobre+os+planos+dispon%C3%ADveis+e+como+posso+me+tornar+um+cliente.+Agrade%C3%A7o+desde+j%C3%A1+pela+aten%C3%A7%C3%A3o%21&type=phone_number&app_absent=0'>Seja um cliente nosso!</a>
           </button>
         </div>
         <Carousel/>
