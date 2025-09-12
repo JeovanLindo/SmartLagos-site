@@ -6,6 +6,8 @@ import Main from './components/sections/Main'
 import ServicesFibra from './components/sections/ServicesFibra'
 import ServicesMovel from './components/sections/ServicesMovel'
 
+import fundo from "./assets/fundo.jpg"
+
 function App() {
 
   return (
@@ -13,9 +15,14 @@ function App() {
       <div>
         <Header/>
         <Main id='main'/>
-        <ServicesMovel id='servicesMovel'/>
-        <Benefits id='beneficios'/>
-        <ServicesFibra id='servicesFibra'/>
+        <div className="w-full h-full bg-auto bg-center"
+        style={{ backgroundImage: `url(${fundo})`}}>
+          <div className='bg-branco bg-opacity-75'>
+            <ServicesMovel id='servicesMovel'/>
+            <Benefits id='beneficios'/>
+            <ServicesFibra id='servicesFibra'/>
+          </div>
+        </div>
         <Footer id='footer'/>
       </div>
     </>

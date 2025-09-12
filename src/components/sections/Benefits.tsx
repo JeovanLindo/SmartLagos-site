@@ -12,19 +12,19 @@ const list = Beneficios.map((title)=> {
 export default function Benefits ({id}: {id: string}){
   return(
     <>
-    <section id={id} className="bg-gray-100 flex flex-col px-12 lg:px-32 py-12 w-full gap-10 justify-center h-fit">
+    <section id={id} className="flex flex-col px-12 lg:px-32 py-12 w-full gap-10 justify-center h-fit">
       <div>
-        <h1 className="text-2xl">
-          Beneficios de ser um cliente vivo
-        </h1>
+        <div className="rounded-xl tracking-wider w-fit p-5 px-2 py-2 bg-branco shadow-[4px_4px_8px_#d1d1d1,-4px_-4px_8px_#ffffff]">
+          <h1 className="text-4xl text-roxo font-bold rounded-xl tracking-wider w-fit p-5 px-6 py-3 bg-branco shadow-[4px_4px_8px_#d1d1d1,-4px_-4px_8px_#ffffff]">BENEFÍCIOS</h1>
+        </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-3 justify-between w-full h-fit">
+      <div className="flex flex-col bg-branco lg:flex-row gap-3 justify-between w-full h-fit">
         <div className="flex w-full justify-center lg:justify-start flex-row flex-wrap gap-3 h-fit">
           {list.map((bl)=>(
-            <div key={bl.title} className="rounded-lg justify-between hover:scale-105 transition-all flex flex-col border p-2 border-fuchsia-600 h-36 w-36">
+            <div key={bl.title} className="rounded-lg justify-between hover:scale-105 transition-all flex flex-col border p-2 border-roxo hover:border-rosa h-36 w-36 text-roxo hover:text-rosa">
               <div>
-                <div className="text-fuchsia-700" >{bl.icon}</div>
-                <h1 className="text-fuchsia-700">{bl.title}</h1>
+                <div>{bl.icon}</div>
+                <h1>{bl.title}</h1>
               </div>
               <p className="text-xs text-gray-600">{bl.desc}</p>
             </div>

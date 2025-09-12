@@ -54,19 +54,19 @@ export function CardNavMovel() {
         modules={[Pagination]}
       >
         {teste.map((teste1)=>(
-          <SwiperSlide className='cursor-grab active:cursor-grabbing w-fit h-fit flex flex-row justify-center mb-10 items-center'
+          <SwiperSlide className='cursor-grab active:cursor-grabbing w-fit h-fit mt-10 flex flex-row justify-center mb-10 items-center'
           key={teste1.gigas}>
-            <div className='flex flex-col h-72 justify-between items-center border border-black gap-6 rounded-md w-full p-5'>
+            <div className='flex flex-col h-72 justify-between items-center gap-6 rounded-xl tracking-wider w-full p-5 px-6 py-3 bg-branco shadow-[4px_4px_8px_#d1d1d1,-4px_-4px_8px_#ffffff]'>
               <div className='flex gap-3 w-full flex-col'>
                   <p className='text-xs'>
                     {teste1.plano}
                   </p>
-                  <p className='text-3xl flex items-center gap-1'>
+                  <p className='text-3xl flex items-center gap-1 font-bold text-roxo'>
                     <Smartphone/> {teste1.gigas} GB
                   </p>
               </div>
-              <p className='text-lg justify-center w-full border-y border-black py-1'>R$ {teste1.preco}/Mês</p>
-              <a target='_blank' href={`https://wa.me/5522999682404?text=Ol%C3%A1,%20quero%20ser%20um%20cliente%20da%20SmartLagos%20e%20me%20interessei%20pelo%20${teste1.plano}%20de%20${teste1.gigas}%20gigas!`} className='focus:bg-fuchsia-600 hover:bg-fuchsia-600 transition-all bg-fuchsia-700 w-full rounded flex items-center justify-center active:bg-fuchsia-900' >
+              <p className='text-lg justify-center w-full py-1 px-6 rounded-full bg-branco font-normal text-rosa shadow-[inset_4px_4px_8px_#d1d1d1,inset_-4px_-4px_8px_#ffffff]'>R$ {teste1.preco}/Mês</p>
+              <a target='_blank' href={`https://wa.me/5522999682404?text=Ol%C3%A1,%20quero%20ser%20um%20cliente%20da%20SmartLagos%20e%20me%20interessei%20pelo%20${teste1.plano}%20de%20${teste1.gigas}%20gigas!`} className='focus:bg-rosa hover:bg-rosa transition-all bg-roxo w-full flex justify-center items-center rounded-full active:bg-roxo'>
                 <p className='text-white text-md p-1' >Assine já!</p>
               </a>
             </div>

@@ -1,6 +1,4 @@
-import LogoRoxa from '@/assets/logo-roxa.png'
-import VivoEmpresasLogo from '@/assets/VivoEmpresaslogo.webp'
-
+import LogoRoxa from '@/assets/Logo Vertical Alt.svg'
 import { Button } from "@/components/ui/button"
 import {
   Sheet,
@@ -30,24 +28,23 @@ const scrollToSection = (sectionId: string) => {
 
 export default function NavBar() {
   return (
-  <header className="sticky top-0 z-50 overflow-hidden flex justify-between font-inter items-center h-16 w-full bg-gray-100 sm:px-32 px-4" >
+  <header className="sticky top-0 z-50 overflow-hidden flex justify-between font-inter items-center h-16 w-full bg-branco sm:px-32 px-4 shadow-lg" >
     
     <a href={'/'} className=' flex space-x-2 flex-row w-fit h-fit'> 
-        <img className='w-40' src={LogoRoxa} alt="Logo da SmartLagos roxa"/>
-        <img className='w-12' src={VivoEmpresasLogo} alt="Logo da Vivo para empresas autorizadas" />
+        <img className='w-28' src={LogoRoxa} alt="Logo da SmartLagos roxa"/>
     </a>
     <div className='hidden md:flex flex-row gap-4' >
         <nav className='flex flex-row gap-4' >
-          <button onClick={()=> scrollToSection('servicesMovel')} className='hover:cursor-pointer hover:text-fuchsia-900 transition-all'>Móvel</button>
-          <button onClick={()=> scrollToSection('beneficios')} className='hover:cursor-pointer hover:text-fuchsia-900 transition-all'>Benefícios</button>
-          <button onClick={()=> scrollToSection('servicesFibra')} className='hover:cursor-pointer hover:text-fuchsia-900 transition-all'>Internet</button>
-          <button onClick={()=> scrollToSection('footer')} className='hover:cursor-pointer hover:text-fuchsia-900 transition-all'>Contatos</button>
+          <button onClick={()=> scrollToSection('servicesMovel')} className='text-roxo hover:cursor-pointer hover:text-roxoClaro transition-all'>Móvel</button>
+          <button onClick={()=> scrollToSection('beneficios')} className='text-roxo hover:cursor-pointer hover:text-roxoClaro transition-all'>Benefícios</button>
+          <button onClick={()=> scrollToSection('servicesFibra')} className='text-roxo hover:cursor-pointer hover:text-roxoClaro transition-all'>Internet</button>
+          <button onClick={()=> scrollToSection('footer')} className='text-roxo hover:cursor-pointer hover:text-roxoClaro transition-all'>Contatos</button>
         </nav>
     </div>
     
     <Sheet modal={false}>
       <SheetTrigger className='md:hidden'>
-        <Button className="bg-transparent shadow-none text-fuchsia-800 md:hidden">
+        <Button className="bg-transparent shadow-none text-roxo md:hidden">
           <AlignJustifyIcon/>
         </Button>
       </SheetTrigger>
@@ -57,25 +54,25 @@ export default function NavBar() {
         </div>
         <SheetHeader className='flex flex-col gap-7'>
           <div>
-            <SheetTitle className='text-xl hover:cursor-pointer hover:translate-x-1 hover:text-fuchsia-900 transition-all'><button onClick={()=> scrollToSection('servicesMovel')}>Móvel</button></SheetTitle>
+            <SheetTitle className='text-xl text-roxo hover:cursor-pointer hover:translate-x-1 hover:text-roxoClaro transition-all'><button onClick={()=> scrollToSection('servicesMovel')}>Móvel</button></SheetTitle>
             <SheetDescription>
               Veja nossas ofertas de internet móvel!
             </SheetDescription>
           </div>
           <div>
-            <SheetTitle className='text-xl hover:cursor-pointer hover:translate-x-1 hover:text-fuchsia-900 transition-all'><button onClick={()=> scrollToSection('beneficios')}>Benefícios</button></SheetTitle>
+            <SheetTitle className='text-xl text-roxo hover:cursor-pointer hover:translate-x-1 hover:text-roxoClaro transition-all'><button onClick={()=> scrollToSection('beneficios')}>Benefícios</button></SheetTitle>
             <SheetDescription>
               Veja porque deve contratar nossos serviços!
             </SheetDescription>
           </div>
           <div>
-            <SheetTitle className='text-xl hover:cursor-pointer hover:translate-x-1 hover:text-fuchsia-900 transition-all'><button onClick={()=> scrollToSection('servicesFibra')}>Internet</button></SheetTitle>
+            <SheetTitle className='text-xl text-roxo hover:cursor-pointer hover:translate-x-1 hover:text-roxoClaro transition-all'><button onClick={()=> scrollToSection('servicesFibra')}>Internet</button></SheetTitle>
             <SheetDescription>
               Veja nossas ofertas de internet fibra!
             </SheetDescription>
           </div>
           <div>
-            <SheetTitle className='text-xl hover:cursor-pointer hover:translate-x-1 hover:text-fuchsia-900 transition-all'><button onClick={()=> scrollToSection('footer')}>Contatos</button></SheetTitle>
+            <SheetTitle className='text-xl text-roxo hover:cursor-pointer hover:translate-x-1 hover:text-roxoClaro transition-all'><button onClick={()=> scrollToSection('footer')}>Contatos</button></SheetTitle>
             <SheetDescription>
               Precisa de ajuda ou quer nos encontrar!
             </SheetDescription>
