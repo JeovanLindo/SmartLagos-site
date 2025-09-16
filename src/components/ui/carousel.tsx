@@ -28,22 +28,22 @@ export default function Carousel() {
       }}
       navigation={false}
       modules={[Autoplay, Pagination, Navigation]}
-      className="min-h-[24rem] flex w-full lg:min-h-[32rem]"
+      className=" min-h-[324rem] flex w-full lg:min-h-[32rem]"
     >
-      <SwiperSlide className="relative min-h-[24rem] lg:min-h-[32rem]">
-        <div className="min-h-[24rem] bg-no-repeat bg-cover bg-[url('/carousel/Mulher-1.jpg')] bg-bottom lg:min-h-[32rem]"></div>
+      <SwiperSlide className="relative min-h-[32rem] lg:min-h-[32rem]">
+        <div className=" min-h-[32rem] bg-no-repeat bg-cover bg-[url('/carousel/banner-mulher.jpg')] bg-bottom lg:min-h-[32rem]"></div>
       </SwiperSlide>
 
-      <SwiperSlide className="relative min-h-[24rem] lg:min-h-[32rem]">
-        <div className="min-h-[24rem] bg-no-repeat bg-cover bg-[url('/carousel/Mulher-2.jpg')] bg-bottom lg:min-h-[32rem]"></div>
-      </SwiperSlide>
-      
-      <SwiperSlide className="relative min-h-[24rem] lg:min-h-[32rem]">
-        <div className="min-h-[24rem] bg-no-repeat bg-cover bg-[url('/carousel/Mulher-3.jpg')] bg-bottom lg:min-h-[32rem]"></div>
+      <SwiperSlide className="relative min-h-[32rem] lg:min-h-[32rem]">
+        <div className=" min-h-[32rem] bg-no-repeat bg-cover bg-[url('/carousel/banner-iphone17.jpg')] bg-bottom lg:min-h-[32rem]"></div>
       </SwiperSlide>
 
-      <SwiperSlide className="relative min-h-[24rem] lg:min-h-[32rem]">
-        <div  className="min-h-[24rem] bg-no-repeat bg-cover bg-[url('/carousel/Iphone16.jpg')] bg-center lg:min-h-[32rem]"></div>
+      <SwiperSlide className="relative min-h-[32rem] lg:min-h-[32rem]">
+        <div className=" min-h-[32rem] bg-no-repeat bg-cover bg-[url('/carousel/banner-instagram.jpg')] bg-bottom lg:min-h-[32rem]"></div>
+      </SwiperSlide>
+
+      <SwiperSlide className="relative min-h-[32rem] lg:min-h-[32rem]">
+        <div className=" min-h-[32rem] bg-no-repeat bg-cover bg-[url('/carousel/banner-olhando.jpg')] bg-bottom lg:min-h-[32rem]"></div>
       </SwiperSlide>
     </Swiper>
   )

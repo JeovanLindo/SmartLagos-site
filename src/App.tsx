@@ -18,9 +18,9 @@ function App() {
         <div className="w-full h-full bg-auto bg-center"
         style={{ backgroundImage: `url(${fundo})`}}>
           <div className='bg-branco bg-opacity-75'>
-            <ServicesMovel id='servicesMovel'/>
-            <Benefits id='beneficios'/>
             <ServicesFibra id='servicesFibra'/>
+            <Benefits id='beneficios'/>
+            <ServicesMovel id='servicesMovel'/>
           </div>
         </div>
         <Footer id='footer'/>
