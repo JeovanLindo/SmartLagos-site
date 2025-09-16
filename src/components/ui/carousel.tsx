@@ -28,7 +28,7 @@ export default function Carousel() {
       }}
       navigation={false}
       modules={[Autoplay, Pagination, Navigation]}
-      className=" min-h-[324rem] flex w-full lg:min-h-[32rem]"
+      className=" min-h-[32rem] flex w-full lg:min-h-[32rem]"
     >
       <SwiperSlide className="relative min-h-[32rem] lg:min-h-[32rem]">
         <div className=" min-h-[32rem] bg-no-repeat bg-cover bg-[url('/carousel/banner-mulher.jpg')] bg-bottom lg:min-h-[32rem]"></div>
